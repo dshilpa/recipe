@@ -1,0 +1,55 @@
+body {
+  overflow: scroll;
+}
+ul {
+  list-style-type: square;
+}
+#square1, #square2, #square3 {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #cfaf70;
+ /* margin-top: 60px;*/
+}
+
+#square1 {
+  margin-left: 40px;
+}
+
+
+img {
+  opacity: 0.5;
+  float: left;
+  width: 50%;
+  height: 400px;
+  position: fixed;
+}
+
+h4 {
+  position: absolute;
+  top: 200px;
+  left: 20%;
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 40px;
+}
+#one {
+  
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  color: red;
+}
+#two{
+  position: relative;
+  top: 600px;
+  left: 50%;
+}
+#three {
+  position: relative;
+  top: 200px;
+}
+body {
+  
+  background-image: repeating-linear-gradient(white, lightblue 10%);
+}
